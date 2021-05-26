@@ -31,79 +31,79 @@ def browser(request):
         link = "http://selenium1py.pythonanywhere.com/fr/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "es":
+    if language == "es":
         link = "http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "ar":
+    if language == "ar":
         link = "http://selenium1py.pythonanywhere.com/ar/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "ca":
+    if language == "ca":
         link = "http://selenium1py.pythonanywhere.com/ca/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "cs":
+    if language == "cs":
         link = "http://selenium1py.pythonanywhere.com/cs/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "da":
+    if language == "da":
         link = "http://selenium1py.pythonanywhere.com/da/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "de":
+    if language == "de":
         link = "http://selenium1py.pythonanywhere.com/de/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "en-gb":
+    if language == "en-gb":
         link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "el":
+    if language == "el":
         link = "http://selenium1py.pythonanywhere.com/el/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "fi":
+    if language == "fi":
         link = "http://selenium1py.pythonanywhere.com/fi/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "it":
+    if language == "it":
         link = "http://selenium1py.pythonanywhere.com/it/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "ko":
+    if language == "ko":
         link = "http://selenium1py.pythonanywhere.com/ko/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "nl":
+    if language == "nl":
         link = "http://selenium1py.pythonanywhere.com/nl/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "pl":
+    if language == "pl":
         link = "http://selenium1py.pythonanywhere.com/pl/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "pt":
+    if language == "pt":
         link = "http://selenium1py.pythonanywhere.com/pt/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "pt-br":
+    if language == "pt-br":
         link = "http://selenium1py.pythonanywhere.com/pt-br/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "ro":
+    if language == "ro":
         link = "http://selenium1py.pythonanywhere.com/ro/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "sk":
+    if language == "sk":
         link = "http://selenium1py.pythonanywhere.com/sk/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "uk":
+    if language == "uk":
         link = "http://selenium1py.pythonanywhere.com/uk/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
-    if language ==  "zh-cn":
+    if language == "zh-cn":
         link = "http://selenium1py.pythonanywhere.com/zh-cn/catalogue/coders-at-work_207/"
         browser.get(link)
         time.sleep(5)
@@ -111,9 +111,6 @@ def browser(request):
     print("\nquit browser..")
     browser.quit()
 
-# Добавьте в файл conftest.py обработчик, который считывает из командной строки параметр language.
-# Реализовать логику запуска браузера с указанным языком пользователя.
-# Браузер должен объявляться в фикстуре browser и передаваться в тест как параметр.
 
 
 
